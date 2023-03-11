@@ -1,0 +1,39 @@
+{
+	"version": "1.0.5",
+	"title": "Alpine theme for Javielico",
+	"description": "Micro.blog's Alpine theme, similar to Marfa theme for Javielico.",
+	"fields": [
+		{
+			"field": "params.alpine_accent_text_color",
+			"label": "Accent text color",
+			"type": "color"
+		},
+		{
+			"field": "params.alpine_accent_background_color",
+			"label": "Accent background color",
+			"type": "color"
+		},
+		{
+			"field": "params.alpine_hover_background_color",
+			"label": "Hover background color",
+			"type": "color"
+		},
+		{
+			"field": "params.photos_grid_style",
+			"label": "Grid style \"grid\" or \"masonry\"",
+			"placeholder": "Enter the grid style",
+			"type": "string"
+		},
+		{
+			"field": "params.show_all_photos",
+			"label": "Include all photos in multi-photo posts, not just first photo.",
+			"type": "boolean"
+		},
+		{
+			"field": "params.included_categories",
+			"label": "Optionally: Only include photos from posts with the following categories (leave empty to include all posts). Separate categories with comma (\",\") to include multiple categories.",
+			"placeholder": "Enter category names separated by comma",
+			"type": "string"
+		}
+	]
+}

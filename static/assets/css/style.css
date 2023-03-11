@@ -26,6 +26,7 @@ body {
 	font: 17px "Avenir Next", Avenir, "-apple-system", Helvetica, Arial, sans-serif;
 	color: #666;
 	text-rendering: optimizeLegibility;
+	background-color: #f7f5f2;
 }
 
 /* Profile */
@@ -62,7 +63,7 @@ body {
 
 nav.main-nav {
 	padding: 20px 20px 0;
-	background: #fff;
+	background: #f7f5f2;
 	background: rgba(255,255,255,.90);
 	margin: 0 auto;
 	text-align: right;
@@ -73,16 +74,16 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	color: #000;
-	font-size: 13px;
+	font-size: 1.125em;
 	line-height: 1.35;
 	font-weight: 500;
 	margin-left: 12px;
 }
 nav.main-nav a.cta {
-	background: #fff;
+	background: #f7f5f2;
 	color: #ee4792;
 	padding: 6px 14px;
-	border: 2px solid #fcdae9;
+	border: 2px solid rgba(245, 40, 145, 0.8);
 	border-bottom: none;
 	border-radius: 20px;
 	white-space: nowrap;
@@ -117,22 +118,22 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 30px;
+	font-size: 1.875em;
 	font-weight: bold;
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 1.5625em;
 	font-weight: 600;
 }
 
 h3 {
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: 500;
 }
 
 p.small {
-	font-size: 14px;
+	font-size: 0.875em;
 	display: block;
 }
 
@@ -142,7 +143,7 @@ code.highlighter-rouge {
 	display: inline-block;
 	padding: 5px 8px;
 	color: #7F7F7F;
-	font-size: 15px;
+	font-size: 0.9375em;
 	line-height: 1.35;
 	font-style: italic;
 }
@@ -715,9 +716,9 @@ nav.main-nav a:hover, #footer a:hover, #post-nav a:hover, p a:hover {
 
 nav.main-nav a.cta {
 	background: #fff;
-	color: #f29c38;
+	color: rgba(245, 40, 145, 0.8);
 	padding: 6px 14px;
-	border: 2px solid #f29c38;
+	border: 2px solid rgba(245, 40, 145, 0.8);
 	border-radius: 20px;
 	white-space: nowrap;
 	box-shadow: none;
@@ -726,7 +727,7 @@ nav.main-nav a.cta {
 
 nav.main-nav a.cta:hover {
 	background: #fffee4;
-	color: #f29c38;
+	color: rgba(245, 40, 145, 1);
 	margin-left: 12px;
 	font-size: 1em;
 }
@@ -749,7 +750,7 @@ nav.main-nav a.cta:hover {
 
 .site-image {
 	display: inline-block;
-	width: 2.188em;
+	width: 2.125em;
 	border-radius: 13px;
 	margin-top: -5px;
 }

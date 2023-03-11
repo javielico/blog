@@ -1,6 +1,6 @@
 {
 	"params": {
-		"alpine_accent_text_color": "#f29c38",
+		"alpine_accent_text_color": "rgba(245, 40, 145, 0.8)",
 		"alpine_accent_background_color": "#ffffff",
 		"alpine_hover_background_color": "#fffee4",
 		"photos_grid_style": "masonry",

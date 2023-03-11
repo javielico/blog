@@ -3,7 +3,7 @@
 		"alpine_accent_text_color": "#f29c38",
 		"alpine_accent_background_color": "#ffffff",
 		"alpine_hover_background_color": "#fffee4",
-		"photos_grid_style": "grid",
+		"photos_grid_style": "masonry",
 	  	"show_all_photos": true,
 		"conversation_on_mb_show_fallback_link": true
 	}

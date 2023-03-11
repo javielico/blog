@@ -733,7 +733,7 @@ nav.main-nav a.cta:hover {
 
 .site-title {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 1.2em;
 	font-weight: 500;
 	line-height: 1.35;
 	padding-left: 5px;
@@ -749,7 +749,7 @@ nav.main-nav a.cta:hover {
 
 .site-image {
 	display: inline-block;
-	width: 26px;
+	width: 2.188em;
 	border-radius: 13px;
 	margin-top: -5px;
 }
@@ -837,6 +837,13 @@ nav.main-nav {
   .photos-grid-container {
 	margin-right: 20px;
   }
+
+  .site-image {
+	display: inline-block;
+	width: 1.562em;
+	border-radius: 13px;
+	margin-top: -5px;
+}
 
 }
 
@@ -944,7 +951,7 @@ nav.main-nav {
   .wrapper:has(> .photos-grid) {
 	max-width: 100%;
   }
-  
+
   .conversation-on-mb {
 	border: solid 0.15rem black;
 	border-radius: 0.4rem;
